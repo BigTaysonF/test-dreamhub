@@ -3,7 +3,7 @@ import { Link , useLocation } from "react-router-dom";
 import menus from "../../pages/menu";
 import DarkMode from './DarkMode';
 import logodark from '../../assets/images/logo/logodream.svg'
-import avt from '../../assets/images/avatar/avt-2.jpg'
+import avt from '../../assets/images/avatar/avt-2.png'
 import coin from '../../assets/images/logo/coin.svg'
 
 
@@ -103,7 +103,11 @@ const HeaderStyle2 = () => {
                                 </nav>
                                 <div className="flat-search-btn flex">
                                     <div className="sc-btn-top mg-r-12" id="site-header">
-                                        <Link to="/wallet-connect" className="sc-button header-slider style style-1 wallet fl-button pri-1"><span>Wallet connect
+                                        <Link to="/create-item" className="sc-button style-1 pri-1"><span>Create Nft
+                                        </span></Link>
+                                    </div>
+                                    <div className="sc-btn-top mg-r-12" id="site-header">
+                                        <Link to="/wallet-connect" className="sc-button style-1 pri-1"><span>Sing in
                                         </span></Link>
                                     </div>
 
