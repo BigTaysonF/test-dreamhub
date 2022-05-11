@@ -20,6 +20,7 @@ const LiveAuction = props => {
             <div className="themesflat-container">
                 <div className="row">
                     <div className="col-md-12">
+                        <div className="special"></div>
                         <h2 className="tf-title-heading style-1 ct">Live Auctions</h2>
                     </div>
                     

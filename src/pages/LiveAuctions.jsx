@@ -8,18 +8,6 @@ const LiveAuctions = () => {
     return (
         <div className='auctions'>
             <HeaderStyle2 />
-            <section className="flat-title-page">
-                <div className="overlay"></div>
-                <div className="themesflat-container">
-                    <div className="row">
-                        <div className="col-md-12">
-                            <div className="page-title-heading mg-bt-12">
-                                <h1 className="heading text-center">Auctions</h1>
-                            </div>
-                        </div>
-                    </div>
-                </div>                    
-            </section>
             <LiveAuction data={liveAuctionData} />
             <Footer />
         </div>
