@@ -1,5 +1,4 @@
-import React , { useRef } from 'react';
-import { Link  } from "react-router-dom";
+import React from 'react';
 import { Accordion } from 'react-bootstrap-accordion'
 import ExploreItem from './ExploreItem';
 import todayPickData from '../../../assets/fake-data/data-today-pick';
