@@ -6,10 +6,6 @@ import todayPickData from '../../../assets/fake-data/data-today-pick';
 const Explore = props => {
     const data = props.data;
 
-    const btnSearch = () => {
-        btnSearch.current.classList.toggle('active');
-    }
-
     return (
         <section className="tf-explore tf-section">
             <div className="tayson" />
