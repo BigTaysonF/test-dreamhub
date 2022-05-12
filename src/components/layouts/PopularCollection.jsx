@@ -14,8 +14,9 @@ const PopularCollection = props => {
                     <div className="col-md-12">
                         <div className="heading-live-auctions">
                             <h2 className="tf-title pb-22 text-left">
-                                Popular Collection</h2>
-                            <Link to="/explore-03" className="exp style2">EXPLORE MORE</Link>
+                                Popular Collection
+                                </h2>
+                                <Link to="/explore-04" className="exp style2">EXPLORE MORE</Link>
                         </div>
                     </div>
                     <div className="col-md-12">
@@ -72,7 +73,7 @@ const PopularCollectionItem = props => (
                                     </div>
                                 </div>
                                 <div className="content">
-                                    <h4><Link to="/authors-01">{props.item.title}</Link></h4>
+                                    <h4><Link to="/authors-02">{props.item.title}</Link></h4>
                                     <div className="infor">
                                         <span>Created by</span>
                                         <span className="name"><Link to="/authors-02">{props.item.name}</Link></span>

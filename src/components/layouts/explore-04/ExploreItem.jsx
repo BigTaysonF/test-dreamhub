@@ -19,7 +19,7 @@ const ExploreItem = props => {
                         data.slice(0,visible).map((item,index) => (
                             <><div className="lol" /><div className={`sc-card-product explode style2 mg-bt ${item.feature ? 'comingsoon' : ''} `} key={index}>
                                 <div className="card-media">
-                                    <Link to="/item-details-01"><img src={item.img} alt="Axies" /></Link>
+                                    <Link to="/item-details-02"><img src={item.img} alt="Axies" /></Link>
                                     <div className="button-place-bid">
                                         <button onClick={() => setModalShow(true)} className="sc-button style-place-bid style bag fl-button pri-3"><span>Place Bid</span></button>
                                     </div>
@@ -27,7 +27,7 @@ const ExploreItem = props => {
                                     <div className="coming-soon">{item.feature}</div>
                                 </div>
                                 <div className="card-title">
-                                    <h5><Link to="/item-details-01">"{item.title}"</Link></h5>
+                                    <h5><Link to="/item-details-02">"{item.title}"</Link></h5>
                                 </div>
                                 <div className="meta-info">
                                     <div className="author">
@@ -36,7 +36,7 @@ const ExploreItem = props => {
                                         </div>
                                         <div className="info">
                                             <span>Creator</span>
-                                            <h6> <Link to="/author-02">{item.nameAuthor}</Link> </h6>
+                                            <h6> <Link to="/authors-02">{item.nameAuthor}</Link> </h6>
                                         </div>
                                     </div>
                                     <div className="tags">{item.tags}</div>

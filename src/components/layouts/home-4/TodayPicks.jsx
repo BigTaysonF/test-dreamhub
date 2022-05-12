@@ -24,7 +24,7 @@ const TodayPicks = props => {
                                 <h2 className="tf-title pad-l-7">
                                     Today's Picks
                                 </h2>
-                                <Link to="/explore-03" className="exp style2">EXPLORE MORE</Link>
+                                <Link to="/explore-04" className="exp style2">EXPLORE MORE</Link>
                             </div>
                         </div>
                         {
@@ -38,7 +38,7 @@ const TodayPicks = props => {
                                                 </div>
                                                 <div className="info">
                                                     <span>Collection</span>
-                                                    <h6> <Link to="/author-02">{item.nameCollection}</Link> </h6>
+                                                    <h6> <Link to="/authors-02">{item.nameCollection}</Link> </h6>
                                                 </div>
                                             </div>
                                             <div className="menu_card">
@@ -62,12 +62,12 @@ const TodayPicks = props => {
                                             </div>
                                         </div>
                                         <div className="card-media">
-                                            <Link to="/item-details-01"><img src={item.img} alt="Axies" /></Link>
+                                            <Link to="/item-details-02"><img src={item.img} alt="Axies" /></Link>
                                             <Link to="/login" className="wishlist-button heart"><span className="number-like">{item.wishlist}</span></Link>
                                             <div className="coming-soon">{item.feature}</div>
                                         </div>
                                         <div className="card-title">
-                                            <h5 className="style2"><Link to="/item-details-01">"{item.title}"</Link></h5>
+                                            <h5 className="style2"><Link to="/item-details-02">"{item.title}"</Link></h5>
                                             <div className="tags">{item.tags}</div>
                                         </div>
                                         <div className="meta-info">
@@ -77,7 +77,7 @@ const TodayPicks = props => {
                                                 </div>
                                                 <div className="info">
                                                     <span>Owned By</span>
-                                                    <h6> <Link to="/author-02">{item.nameAuthor}</Link> </h6>
+                                                    <h6> <Link to="/authors-02">{item.nameAuthor}</Link> </h6>
                                                 </div>
                                             </div>
                                             <div className="price">

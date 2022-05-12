@@ -2506,7 +2506,7 @@ section.tf-section.live-auctions.home3 {
     left: 0;
     top: 0;
     background-image: url("../images/bg/noise.gif");
-    z-index: 1;
+    z-index: 0;
     background-color: rebeccapurple;
     opacity: 0.05;
 }
@@ -4387,14 +4387,22 @@ opacity: 0.05;
     align-items: center;
 }
 .mode_switcher {
-    display: flex;
+    display      : inline-block;
+    border       : 2px solid var(--primary-color3);
+    color        : var(--primary-color3);
+    box-sizing   : border-box;
+    border-radius: 50%;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition   : all 0.3s ease;
+    -ms-transition    : all 0.3s ease;
+    -o-transition     : all 0.3s ease;
+    transition        : all 0.3s ease;
     position: absolute;
-    top: 21px;
-    right: 11px;
+    margin-top: -0.5em;
     justify-content: center;
     align-items: center;
-  }
 
+  }
   .mode_switcher h6{
       line-height: 1.2;
       width: 85px;
@@ -4408,13 +4416,14 @@ opacity: 0.05;
   }
   
   .mode_switcher a {
-    background: linear-gradient(216.56deg, #E250E5 5.32%, #4B50E6 94.32%);
-    border-radius: 10px;
-    width: 40px;
-    height: 40px;
-    min-width: 40px;
+    width: 20px;
+    height: 20px;
+    max-width: 30px;
+    margin-top: 0.75em;
+    margin-bottom: 0.75em;
+    margin-left: 0.75em;
+    margin-right: 0.75em;
     font-size: 16px;
-    margin-left: 10px;
     display: flex;
     justify-content: center;
     align-items: center;

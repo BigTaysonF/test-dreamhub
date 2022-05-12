@@ -162,7 +162,7 @@ const Activity01 = () => {
                                                 <img src={item.img} alt="Axies" />
                                             </div>
                                             <div className="infor">
-                                                <h3> <Link to="/item-details-01">{item.title}</Link></h3>
+                                                <h3> <Link to="/item-details-02">{item.title}</Link></h3>
                                                 <div className="status">{item.status} <span className="author">{item.author}</span></div>
                                                 <div className="time">{item.time}</div>
                                             </div>
