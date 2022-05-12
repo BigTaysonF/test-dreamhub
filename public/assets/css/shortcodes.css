@@ -4398,7 +4398,7 @@ opacity: 0.05;
     -o-transition     : all 0.3s ease;
     transition        : all 0.3s ease;
     position: absolute;
-    margin-top: -0.5em;
+    margin-top: -0.4em;
     justify-content: center;
     align-items: center;
 
@@ -4416,8 +4416,8 @@ opacity: 0.05;
   }
   
   .mode_switcher a {
-    width: 20px;
-    height: 20px;
+    width: 15px;
+    height: 15px;
     max-width: 30px;
     margin-top: 0.75em;
     margin-bottom: 0.75em;
