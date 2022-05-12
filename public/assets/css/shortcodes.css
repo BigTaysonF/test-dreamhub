@@ -642,20 +642,16 @@
     border-radius: 12px;
     overflow     : hidden;
     margin-bottom: 20px;
-    z-index: 2;
 }
 
 .sc-card-product.menu_card .card-media {
     border-radius: 12px;
-    z-index: 2;
 }
 .sc-card-product.menu_card.style2 .card-media {
     border-radius: 20px;
-    z-index: 2;
 }
 .sc-card-product.menu_card .meta-info.style{
     margin-bottom: 20px;
-    z-index: 2;
 }
 .item-details .sc-card-product {
     margin-bottom: 44px;
@@ -1157,7 +1153,8 @@
     text-decoration: none;
     padding: 0;
     border: none;
-    z-index: 2;
+    z-index: 999999;
+    position: relative;
 }
 .sc-card-product .meta-info .menu_card .dropdown .dropdown-toggle:focus {
     border: none;
@@ -1165,7 +1162,8 @@
 
 .is_dark .sc-card-product .meta-info .menu_card .dropdown .dropdown-toggle{
     background-color: #7A798A;
-    z-index: 99;
+    z-index: 999999;
+    position: relative;
 }
 
 .sc-card-product .price h5 {
@@ -2308,7 +2306,7 @@
     left: 0;
     top: 0;
     background-image: url("../images/bg/noise.gif");
-    z-index: 1;
+    z-index: 0;
     background-color: rebeccapurple;
     opacity: 0.05;
 
@@ -2971,6 +2969,8 @@ section.today-picks {
     -moz-border-radius   : 6px;
     -webkit-border-radius: 6px;
     text-align           : left;
+    z-index: 999999;
+    position: relative;
 }
 .menu_card .dropdown .dropdown-toggle::after {
     display: none;
@@ -5707,7 +5707,7 @@ opacity: 0.5;
 }
 
 .menu_card .dropdown-menu {
-    z-index: 99;
+    z-index: 999999;
     background: #fff;
     border: 1px solid #fff;
     border-radius: 8px;
@@ -5735,6 +5735,7 @@ opacity: 0.5;
 .is_dark .menu_card .dropdown-menu {
     background: #343444;
     border: 1px solid #3C3C56;
+    z-index: 999999;
 }
 
 .menu_card .dropdown-menu a{
@@ -5769,6 +5770,7 @@ opacity: 0.5;
     opacity: 1;
     -webkit-transform: translateY(0);
     transform: translateY(0);
+    z-index: 999999;
 }
 
 .tf-section.live-auctions.home4 {
