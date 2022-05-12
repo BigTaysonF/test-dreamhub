@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom'
-import imgsun from '../../assets/images/icon/sun.png'
 
 const DarkMode = () => {
     let clickedClass = "clicked"
@@ -36,7 +35,6 @@ const DarkMode = () => {
         <h6>Dark mode <strong>Available</strong></h6>
         <Link to="#" 
             onClick={e => switchTheme(e)}  >
-            <img src={imgsun} alt="" />
         </Link>
 
     </div>

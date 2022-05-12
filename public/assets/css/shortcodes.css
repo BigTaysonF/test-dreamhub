@@ -4418,10 +4418,14 @@ opacity: 0.05;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-image: url("../icon/moon-2.png");
+    background-size: cover;
   }
   
   .is_dark .mode_switcher a {
-    background: #343444;
+    background-color: #13131d;
+    background-image: url("../icon/sun.png");
+    background-size: cover;
   }
   
   .mode_switcher a i {
