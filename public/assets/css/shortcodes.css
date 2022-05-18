@@ -8515,7 +8515,7 @@ opacity: 0.5;
 }
 .containersu{
     width: 100%;
-    height: 100%;
+    height: 110%;
     background-image: url("../images/backgroup-secsion/su.png");
     background-size: cover;
     margin-left: -1.5em;
@@ -8523,11 +8523,23 @@ opacity: 0.5;
 .fixed {
     margin-top:  2.5em;
 }
+.buttons-c {
+    margin-top: -4em;
+    text-align: center;
+}
 .buttons-c .sc-btn-top2 {
     text-align: center;
-    margin-top: 2em;
+    margin-top: 1em;
+}
+.buttons-c .sc-btn-top2 .sc-button {
+    width: 22.5em;
 }
 .buttons-c .sc-btn-top2 img {
     text-align: left;
     position: relative;
+    background-size: cover;
+    margin-right: 1.5em;
+    width: 3em;
+    height: 3em;
+
 }
