@@ -38,7 +38,6 @@
     padding: 80px 0 50px;
     position: relative;
     background-color: #13131d;
-    margin-bottom: -10em;
 }
 .tf-connect-wallet.tf-section .tayson {
     -webkit-font-smoothing: antialiased;
@@ -4359,7 +4358,7 @@ opacity: 0.05;
 /* switch mode */
 
 .bg-dark {
-    background-color: #212529!important;
+
     height: 60px;
     display: flex;
     align-items: center;
@@ -4384,17 +4383,6 @@ opacity: 0.05;
     align-items: center;
 
   }
-  .mode_switcher h6{
-      line-height: 1.2;
-      width: 85px;
-      text-align: center;
-      color: #fff;
-  }
-
-  .mode_switcher h6 strong{
-    font-size: 18px;
-    font-weight: bold;
-  }
   
   .mode_switcher a {
     width: 15px;
@@ -4413,17 +4401,12 @@ opacity: 0.05;
   }
   
   .is_dark .mode_switcher a {
-    background-color: #13131d;
     background-image: url("../icon/sun.png");
     background-size: cover;
   }
   
   .mode_switcher a i {
     margin-right: 5px;
-  }
-  
-  .is__dark {
-    background-image: url("../images/bg/noise.gif");
   }
 
 .box-item {
