@@ -34,6 +34,7 @@
 }
 
 .tf-connect-wallet.tf-section {
+    margin-top: -10em;
     padding: 80px 0 50px;
     position: relative;
     background-color: #13131d;
@@ -8542,4 +8543,13 @@ opacity: 0.5;
     width: 3em;
     height: 3em;
 
+}
+
+.back {
+    margin-top: -20em;
+    margin-left: 3em;
+    background-color: #EBEBEB;
+    border-radius: 40px;
+    width: 6em;
+    height: 6em;
 }

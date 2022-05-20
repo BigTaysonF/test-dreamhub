@@ -32,7 +32,6 @@ const DarkMode = () => {
     }
     return (
         <div className="mode_switcher">
-       
         <Link to="#" 
             onClick={e => switchTheme(e)}  >
         </Link>
