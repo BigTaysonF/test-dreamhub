@@ -31,7 +31,7 @@ const WalletConnect = () => {
 
                     </div>
                         <div className="col-lg-7 col-md-12">
-                            <br /><br /><br /><br /><br /><br /><br /><br />
+                            <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
                         <h2 className="tf-title-heading ct style-2 mg-bt-12">
                                 Sign In
                             </h2>
