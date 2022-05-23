@@ -57,7 +57,7 @@ const HeaderStyle2 = () => {
                                         </Link>
                                     </div>
                                 </div>
-                                <div className="mobile-button" ref={btnToggle} onClick={menuToggle}><span></span></div>
+                                <div className="mobile-button" ref={btnToggle} onClick={menuToggle} onRequestClose={menuToggle}><span></span></div>
                                 <div className="question-form">
                                     <form action="#" method="get">
                                         <input type="text" placeholder="Type to search..." required />
@@ -117,6 +117,11 @@ const HeaderStyle2 = () => {
                                                 <button className="search search-submit" type="submit" title="Search">
                                                     <i className="icon-fl-search-filled"></i>
                                                 </button>
+                                                <div className="closebrowser">
+                                                    <Link to="#" className="search search-submit-close" onClick={searchBtn}>
+                                                    <i className="fas fa-times"></i>
+                                                     </Link>
+                                                </div>
                                             </form>
                                         </div>
                                     </div>

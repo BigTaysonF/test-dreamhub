@@ -1521,6 +1521,7 @@ header{
 }
 
 #site-logo-inner {
+    margin-left: 3em;
     position         : absolute;
     top              : 50%;
     -webkit-transform: translateY(-50%);
@@ -1930,14 +1931,31 @@ header{
 
 .top-search {
     position          : absolute;
-    right             : -16px;
-    top               : 130%;
-    width             : 250px;
+    right             : -2em;
+    top               : 0;
+    width             : 220px;
     opacity           : 0;
     visibility        : hidden;
 }
 
 .search-submit {
+    position          : absolute;
+    top               : 0;
+    right             : 1em;
+    font-size         : 20px;
+    background        : none;
+    color             : #14141F;
+    border-radius     : 0;
+    -webkit-transition: all ease .3s;
+    -moz-transition: all ease .3s;
+    transition: all ease .3s;
+    border: none;
+    border-radius: 30px;
+    line-height: 20px;
+    padding: 15px 15px;
+    background: transparent;
+}
+.search-submit-close {
     position          : absolute;
     top               : 0;
     right             : 0;
@@ -1958,6 +1976,9 @@ header{
 .search-submit:hover {
     border: none;
     color: #fff;
+}
+.search-submit-close:hover {
+    border: none;
 }
 
 .search-form {
