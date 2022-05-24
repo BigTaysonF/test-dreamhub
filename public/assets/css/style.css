@@ -2349,12 +2349,25 @@ header{
 }
 
 /*widget-logo*/
-.widget-logo .logo-footer a {
-    color: var(--primary-color3);
+
+.widget-logo {
+    text-align: center;
 }
 
 .widget-logo .logo-footer a {
-    font-size  : 36px;
+    color: var(--primary-color3);
+
+}
+.widget-logo .logo-footer a img {
+    margin-left: 6em;
+    height: 15em;
+    width: 15em;
+    background-size: cover;
+    position: relative;
+
+}
+
+.widget-logo .logo-footer a {
     font-weight: bold;
 }
 

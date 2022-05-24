@@ -622,9 +622,7 @@
     border-radius: 12px;
     overflow     : hidden;
     margin-bottom: 20px;
-}
-.sc-card-product.menu_card {
-
+    z-index: 3;
 }
 
 .sc-card-product.menu_card .card-media {
@@ -869,13 +867,11 @@
 --------------------------------------------------*/
 .home4 .sc-card-product{
     position: relative;
-    z-index: 2;
 }
 .sc-card-product {
-    background-color: #13131d;
     position: relative;
+    background-color: #13131d;
     padding      : 20px;
-    box-shadow   : 0px 3px 16px rgba(47, 83, 109,);
     border-radius: 20px;
     margin-bottom: 40px;
     overflow: hidden;
@@ -888,6 +884,7 @@
     border-right: 1px solid blue;
     border-bottom: 1px solid blue;
     border-left: 1px solid blue;
+
 }
 
 .sc-card-product .card-media img {
@@ -6495,7 +6492,7 @@ opacity: 0.5;
 .carousel6 .sc-card-product.style2 .card-title .tags {
     font-size: 14px;
     width: 54px;
-    height: 24px;
+    height: 48px;
     border-radius: 10px;
 }
 
@@ -8298,7 +8295,7 @@ opacity: 0.5;
     background-repeat: repeat-x;
     -webkit-transition: all 0.5s;
     transition: all 0.5s;
-    width: 100%;
+    width: 99%;
     height: 91%;
     z-index: -2;
 }
@@ -8354,7 +8351,7 @@ opacity: 0.5;
     background-color: rebeccapurple;
     opacity: 0.05;
     border-radius: 10px;
-    z-index: 0;
+    z-index: 2;
 }
 .home-4 .today-pick .themesflat-container .row .fl-item.col-xl-3.col-lg-4.col-md-6.col-sm-6:hover::before {
     transform: rotate(2deg) translateX(-7px) translateY(11px);
