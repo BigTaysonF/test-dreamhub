@@ -2359,6 +2359,7 @@ header{
 
 }
 .widget-logo .logo-footer a img {
+    margin-top: 4em;
     margin-left: 6em;
     height: 15em;
     width: 15em;
