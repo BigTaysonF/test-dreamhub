@@ -114,9 +114,6 @@ const HeaderStyle2 = () => {
                                         <div className="top-search" ref={btnSearch}>
                                             <form action="#" method="get" role="search" className="search-form">
                                                 <input type="search" id="s" className="search-field" placeholder="Search..." name="s" title="Search for" required="" />
-                                                <button className="search search-submit" type="submit" title="Search">
-                                                    <i className="icon-fl-search-filled"></i>
-                                                </button>
                                                 <div className="closebrowser">
                                                     <Link to="#" className="search search-submit-close" onClick={searchBtn}>
                                                     <i className="fas fa-times"></i>
@@ -126,11 +123,11 @@ const HeaderStyle2 = () => {
                                         </div>
                                     </div>
                                     <div className="sc-btn-top mg-r-12" id="site-header">
-                                        <Link to="/create-item" className="sc-button style-1 pri-1"><span>Create Nft
+                                        <Link to="/create-item" className="sc-button"><span>Create Nft
                                         </span></Link>
                                     </div>
                                     <div className="sc-btn-top mg-r-12" id="site-header">
-                                        <Link to="/wallet-connect" className="sc-button style-1 pri-1"><span>Sing in
+                                        <Link to="/wallet-connect" className="sc-button"><span>Sing in
                                         </span></Link>
                                     </div>
 
