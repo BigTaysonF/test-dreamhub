@@ -111,11 +111,11 @@ const HeaderStyle2 = () => {
                                         <Link to="#" className="show-search header-search-trigger" onClick={searchBtn}>
                                             <i className="far fa-search"></i>
                                         </Link>
-                                        <div className="top-search" ref={btnSearch}>
-                                            <form action="#" method="get" role="search" className="search-form">
+                                        <div className="top-search" ref={btnSearch} >
+                                            <form action="#" method="get" role="search" className="search-form" >
                                                 <input type="search" id="s" className="search-field" placeholder="Search..." name="s" title="Search for" required="" />
                                                 <div className="closebrowser">
-                                                    <Link to="#" className="search search-submit-close" onClick={searchBtn}>
+                                                    <Link to="#" className="search search-submit-close" onClick={searchBtn} >
                                                     <i className="fas fa-times"></i>
                                                      </Link>
                                                 </div>

@@ -13,14 +13,12 @@ const Explore = props => {
                 <div className="row">
                     <div className="col-xl-3 col-lg-3 col-md-12">
                         <div id="side-bar" className="side-bar style-3">
-                                    <div className="header-search1 flat-show-search" id="s1">
-                                            <form action="#" method="get" role="search" className="search-form">
-                                                <input type="search" id="s" className="search-field" placeholder="Search..." name="s" title="Search for" required="" />
-                                                <button className="search search-submit" type="submit" title="Search">
-                                                    <i className="icon-fl-search-filled"></i>
-                                                </button>
-                                            </form>
-                                    </div>
+                        <div className="widget widget-search mgbt-24">
+                                    <form action="#">
+                                        <input type="text" placeholder="Enter your word art" required />
+                                        <button><i className="icon-fl-search-filled"></i></button>
+                                    </form>
+                                </div>
                             {
                                 data.map((item,index) => (
                                     <div className="widget widget-category mgbt-24 boder-bt" key={index}>
