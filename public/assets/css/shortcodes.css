@@ -33,13 +33,16 @@
     transition: all 0.3s ease-in-out;
 }
 
-.tf-connect-wallet.tf-section {
-    margin-top: -10em;
-    padding: 80px 0 50px;
-    position: relative;
+.tf-connect-wallet {
     background-color: #13131d;
+    height: 100vh;
+    top:0px;
+    right:0px;
+    bottom:0px;
+    left:0px;
+    position: absolute;
 }
-.tf-connect-wallet.tf-section .tayson {
+.tf-connect-wallet .tayson {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     content: "";
@@ -8546,11 +8549,11 @@ opacity: 0.5;
     margin-top: 10em;
 }
 .containersu{
-    width: 100%;
-    height: 110%;
-
+    width: 30%;
+    height: 100%;
+    background-image: url("../images/backgroup-secsion/su.png");
     background-size: cover;
-    margin-left: -1.5em;
+    position: absolute;
 }
 .fixed {
     margin-top:  2.5em;
@@ -8578,13 +8581,13 @@ opacity: 0.5;
 }
 
 .back {
-    margin-top: -20em;
+    padding-top: 3em;
     margin-left: 3em;
-    background-color: #EBEBEB;
-    border-radius: 40px;
-    width: 6em;
-    height: 6em;
+    height: 100%;
+    position: relative;
+    z-index: 999999;
 }
+
 .closebrowser {
     margin-left: 2em;
 }

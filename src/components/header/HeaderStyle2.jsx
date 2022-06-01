@@ -121,14 +121,15 @@ const HeaderStyle2 = () => {
                                                 </div>
                                             </form>
                                         </div>
-                                    </div>
+                                    </div> 
                                     <div className="sc-btn-top mg-r-12" id="site-header">
-                                        <Link to="/create-item" className="sc-button"><span>Create Nft
+                                        <Link to="/create-item" className="sc-button"><span>Create
                                         </span></Link>
                                     </div>
                                     <div className="sc-btn-top mg-r-12" id="site-header">
                                         <Link to="/wallet-connect" className="sc-button"><span>Sing in
                                         </span></Link>
+                                    </div>
                                     </div>
 
                                     <div className="admin_active" id="header_admin">
@@ -174,7 +175,6 @@ const HeaderStyle2 = () => {
                                             </div>
                                         </div>
                                     </div>
-                                </div>
                             </div> 
                         </div>
                     </div>

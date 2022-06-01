@@ -69,10 +69,6 @@
   .sc-btn-top.mg-r-12{
     margin-right: 0;
   }
-
-  .connect-wal  .sc-btn-top.mg-r-12{
-    margin-right: 12px;
-  }
   .collection .swiper-button-prev.btn-slide-prev{
     left: 0;
   }
@@ -264,12 +260,10 @@
   }
 
   #site-header .sc-button span{
-    font-size: 0px;
-    display: flex;
+    font-size: 12px;
     align-items: center;
     text-align: center;
     justify-content: center;
-    height: 22px;
   }
 
   #site-header .sc-button span::before{
@@ -415,14 +409,19 @@
 
 @media only screen and (max-width: 991px) {
   .header_2 #main-nav>ul>li {
-    float: left;
+    float: right;
     padding: 5px 13px 5px 13px;
 }
   .header_1.header_2.style2 {
     height: 80px !important;
   }
   .header_2 .mode_switcher {
-    top: 85px;
+    top: 2em;
+    margin-right: 3em;
+    padding: 0.5em;
+  }
+  .header_2 .sc-btn-top {
+    margin-right: -0.5em;
   }
   .side-bar.item {
     width: 100%;
@@ -1135,9 +1134,14 @@
     padding-bottom: 30px !important;
   }
 
-  .mobile-button,
-  #site-logo-inner{
+  .mobile-button{
     top: 40px !important;
+  }
+  #site-logo-inner{
+    left: -2em;
+    padding: 0;
+    top: 0;
+
   }
   .mainslider .image,
   .flat-title-page .shape{
@@ -1395,6 +1399,36 @@
   width: 100%;
 }
 }
+@media only screen and (max-width: 575px) {
+  .tf-connect-wallet {
+    height: 100%;
+    bottom: 0;
+  }
+  .back {
+    margin-left: 0.5em;
+    width: 80%;
+  }
+  .buttons-c {
+    margin-top: -4em;
+    text-align: center;
+}
+.buttons-c .sc-btn-top2 {
+    margin-top: 1em;
+}
+.buttons-c .sc-btn-top2 .sc-button {
+  text-align: left;
+    width: 20em;
+    height: 5em;
+}
+
+.buttons-c .sc-btn-top2 img {
+    text-align: left;
+    background-size: cover;
+    width: 2em;
+    height: 2em;
+
+}
+}
 
 @media only screen and (max-width: 549px) {
   .tab-create-item .tabs,
@@ -1407,7 +1441,7 @@
   }
 
   .flat-search-btn{
-    right: 55px !important;
+    right: 10.5em !important;
   }
 
   .header-search {
@@ -1512,4 +1546,36 @@
     padding-left: 10px;
     padding-right: 10px;
   }
+  .tf-connect-wallet {
+    height: 100%;
+    bottom: 0;
+  }
+  .back {
+    margin-left: 0.5em;
+    width: 80%;
+  }
+  .buttons-c {
+    margin-top: -4em;
+    text-align: center;
+}
+.buttons-c .sc-btn-top2 {
+    margin-top: 0.5em;
+}
+.buttons-c .sc-btn-top2 .sc-button {
+  padding: 0;
+  text-align: center;
+    width: 15em;
+    height: 3em;
+}
+#site-header .sc-button span{
+  font-size: 10px;
+}
+
+.buttons-c .sc-btn-top2 img {
+    text-align: left;
+    background-size: cover;
+    width: 1.5em;
+    height: 1.5em;
+
+}
 }
